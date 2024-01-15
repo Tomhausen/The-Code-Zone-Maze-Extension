@@ -2,16 +2,17 @@
     "name": "with music",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-arcade-mazes": "github:robo-technical-group/pxt-arcade-mazes#v2.2.1"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "assets.json",
-        "main.py",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "mazes.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -24,5 +25,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj"
 }
